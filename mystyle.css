@@ -1,0 +1,33 @@
+body {
+background="killi.jpg"
+}
+h1 {
+  color: white;
+  margin-left: 50px;
+}
+h1 {
+  text-align: center;
+ 
+}
+h {
+  text-align: center;
+ 
+}
+p{
+  color:violet;
+ 
+}
+p1{
+  color:blue;
+ 
+}
+.tablink {
+  background-color: black;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;}

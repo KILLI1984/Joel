@@ -1,0 +1,149 @@
+<html>
+<head>
+<link rel="stylesheet"  href="mystyle.css">
+<style>
+body {
+  background-image:url("killi.jpg");
+}
+</style>
+<title>BIT LORDS
+</title> <H1>MY PROGRAMMES:</H1>
+</head>
+<body>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('Programs', this, 'green')" id="defaultOpen">Programs</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+  <div id="Home" class="tabcontent">
+    <h2>Menu</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+     <p1> <li><a href="#">prgrm 1</a></li>
+      <li><a href="#">prgrm 2</a></li>
+      <li><a href="#">prgrm 3</a></li>
+      <li><a href="#">prgrm 4</a></li>
+      <li><a href="#">prgrm 5</a></li>
+      <li><a href="#">prgrm 6</a></li>
+      <li><a href="#">prgrm 7</a></li>
+      <li><a href="#">prgrm 8</a></li>
+      <li><a href="#">prgrm 9</a></li>
+    </ul></p1>
+  </div>
+<div id="Programs" class="tabcontent">
+
+  <p><u>FARMERS ANNUAL SCHEDULE</u> <BR>
+#include <stdio.h><BR>
+int main()<BR>
+{
+	int month,day;<BR>
+	  step1:<BR>
+		printf("Enter month : ");<BR>
+		scanf("%d",&month);<BR>
+		printf("Enter day of the month : ");<BR>
+		scanf("%d",&day);<BR>
+		printf("\t- ");<BR>
+	switch(month)<BR>
+	{<BR>
+	case 1:<BR>
+			if(day<=7)<BR>
+			printf("Enquiry of inputs");<BR>
+			else if(day>7 && day<=16)<BR>
+			printf("Delivery of inputs");<BR>
+			else if(day>16 && day<=23)<BR>
+			printf("Sorting of inputs");<BR>
+			else if(day>23 && day<=31)<BR>
+			printf("Guide on the input application");<BR>
+		break;<BR>
+	case 2:<BR>
+			if(day=1 && day<=29)<BR>
+			printf("Pre-prepatration of land");<BR>
+		break;<BR>
+	case 3:<BR>
+			if(day=1 && day<=31)<BR>
+	case 4:<BR>
+			if(day=1 && day<=30)<BR>
+			printf("Preparation of land");<BR>
+		   
+		break;<BR>
+	case 5:<BR>
+			if(day=1 && day<=31)<BR>
+			printf("Planting of crops");<BR>
+		break;<BR>
+	case 6:<BR>
+			if(day=1 && day<=30)…<BR>
+        case 7:<BR>
+			if(day=1 && day<=31)<BR>
+			printf("Harvesting of crops");<BR>
+		break;<BR>
+	case 8:<BR>
+			if(day=1 && day<=31)<BR>
+			printf("Sorting of the produce");<BR>
+		break;<BR>
+	case 9:<BR>
+			if(day=1 && day<=30)<BR>
+	case 10:<BR>
+			if(day=1 && day<=31)<BR>
+			printf("Milling and selling");<BR>
+		  
+		break;<BR>
+	case 11:<BR>
+			if(day=1 && day<=30)<BR>
+	case 12:<BR>
+			if(day=1 && day<=31)<BR>
+			printf("Recap");<BR>
+		  
+		break;<BR>
+			default:<BR>
+			printf("You entered invalid value for months.");<BR>
+			printf("Please try again(from 1-12)\n");<BR>
+		goto step1;<BR>
+		
+		}<BR>
+	
+	return 0;<BR>
+	}<BR></p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+ <BR> <p>For more information about my skills and ability in the programming field<br><br>I have made it possible and easier to contact me through
+my official pages on:<br><br><b>TWITTER:<br><br>FACEBOOK:<br><br>INSTAGRAM:<br><br>TELEGRAM:<br>
+  <br>WHATSAPP 0740080788/0759562097<BR><br></b>
+       
+</p>
+</div>
+<div id="About" class="tabcontent"><br><br>
+ <h>MY STORY </h>
+ <p>Im CLINTON but locally known as KILLI.<br><br>
+    Im currently a student in ZETECH UNI .I joined the year 2021 and im persuiding a course in BBIT (Bachelor Of Business Information and Technology).<br><br>
+    My life changed a lot after gradueding from the secondary school because i had to learn a lot about people <br><br>
+    and other things and on how to survive since I had to find ways on how to make my own money .<br><br>
+    On joining campus I made new friends who changed me in diffent ways <br><br> 
+    I do photography and also help my friend at his shop to earn some extra cash to put up with life .<br><br>
+    On prices and samples of my work and offers you can contact me on the sites provided in the CONTACT tab <br><br>
+
+<audio controls>
+  <source src="jeff.ogg" type="audio/ogg">
+  <source src="jeff.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+</html>
